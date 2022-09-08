@@ -1,0 +1,92 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+nav{
+    font-size: small;
+    color: white;
+}
+.navbar img{
+    width: 60% ;
+
+}
+
+
+
+
+.icon-section i{
+    padding-left: 20px;
+}
+
+.info{
+    background-color: blue;
+    height: 50px;
+    
+}
+.info a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-top: 50px;
+    
+}
+
+.carousel-caption {
+    position: absolute;
+    top:30%;
+    padding: 30px 0px;
+}
+.carousel-caption h1{
+padding-bottom: 40px;
+padding-left: 50%;
+color: black;
+    
+}
+.carousel-caption p{
+    padding-bottom: 40px;
+    padding-left: 50%;
+    color: black;
+        
+    }
+    .icon-list{
+        height: 70px;
+        padding-top: 20px;
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    font-size: smaller;
+    text-decoration: none;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+
+}

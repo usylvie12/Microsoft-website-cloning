@@ -142,15 +142,20 @@ footer a{
     .info a{
         display:none;
     }
-    .hello {
-      
-      width: 100%;
-       
-      }
-   
+    .text-block {
+      position: relative;
+   }
+   .text-block-left {
+    position: relative;
+     
+  }
+  .text-block-bottom {
+    color: black;
+    position: relative;
+     
+  }
     
-  
-  
+   
   }
 
 /* Medium devices (tablets, 768px and up) */
@@ -158,13 +163,19 @@ footer a{
     .navbar-brand img{
         display: none;
     }
-    .hello {
-      
-      width: 100%;
-       
-      }
+   
     .text-block {
-       width: 100%;
+      position: relative;
+       
+    }
+    .text-block-left {
+      position: relative;
+       
+    }
+    .text-block-bottom {
+      color: black;
+      position: relative;
+       
     }
  }
 
@@ -176,16 +187,21 @@ footer a{
 
 
 
-.hello {
-  position: relative;
- width: 100%;     
-  padding: auto;
-   
-  }
 .text-block {
-  padding: absolute;
-   width: 100%;
-   padding: 0;
+  position: relative;
+  padding: 0;
    
-}}
+}
+.text-block-left {
+  position: relative;
+  padding: 0;
+   
+}
+.text-block-bottom {
+  position: relative;
+  padding: 0;
+  color: black;
+   
+}
+}
 

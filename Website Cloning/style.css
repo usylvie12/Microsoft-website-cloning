@@ -22,59 +22,101 @@ nav{
 }
 
 .info{
-    background-color: blue;
+    background-color:#000080;
     height: 50px;
+    text-align: center;
     
 }
 .info a{
     text-decoration: none;
     color: aliceblue;
-    padding-top: 50px;
+    padding-top: 20px;
     
 }
 
-.carousel-caption {
+
+
+
+.hello {
+    position: relative;
+   
+  }
+  
+  /* Bottom right text */
+  .text-block {
     position: absolute;
-    top:30%;
-    padding: 30px 0px;
-}
-.carousel-caption h1{
-padding-bottom: 40px;
-padding-left: 50%;
-color: black;
+    top: 20%;
+    padding-left: 60%;
     
-}
-.carousel-caption p{
-    padding-bottom: 40px;
-    padding-left: 50%;
-    color: black;
-        
-    }
+  }
+
+  .hello button{
+    margin-top: 30px;
+  }
+  .hello-left {
+    position: relative;
+   
+  }
+  
+  .hello-left img {
+    width: 100%;
+   
+  }
+  
+  /* Bottom right text */
+  .text-block-left {
+    position: absolute;
+    top: 40%;
+    padding-right: 50%;
+    padding-left: 5%;
+    
+  }
+
+  .hello-left button{
+    margin-top: 30px;
+  }
+
+  .hello-bottom {
+    position: relative;
+    
+   
+  }
+  
+  .hello-bottom img {
+    width: 100%;
+   
+  }
+
+  
+  
+  
+  .text-block-bottom {
+    position: absolute;
+    top: 40%;
+    padding-right: 50%;
+    padding-left: 5%;
+    color: white;
+    background-color:rgba(214, 184, 184, 0.151);
+   
+    
+  }
+
+  .hello-bottom button{
+    margin-top: 30px;
+  }
+  
+
     .icon-list{
         height: 70px;
         padding-top: 20px;
     }
+    .card{
+        padding: 10px;
+        
+        
+    }
     
     
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -82,6 +124,8 @@ color: black;
 footer{
     font-size: smaller;
     text-decoration: none;
+    background-color: gainsboro;
+    padding-top: 30px;
 
 }
 
@@ -90,3 +134,58 @@ footer a{
     color: black;
 
 }
+@media (max-width: 576px) { 
+
+    .navbar-brand img{
+        display: none;
+    }
+    .info a{
+        display:none;
+    }
+    .hello {
+      
+      width: 100%;
+       
+      }
+   
+    
+  
+  
+  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .navbar-brand img{
+        display: none;
+    }
+    .hello {
+      
+      width: 100%;
+       
+      }
+    .text-block {
+       width: 100%;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)  */
+@media (max-width: 992px) { 
+    .navbar-brand img{
+    display: none;
+}
+
+
+
+.hello {
+  position: relative;
+ width: 100%;     
+  padding: auto;
+   
+  }
+.text-block {
+  padding: absolute;
+   width: 100%;
+   padding: 0;
+   
+}}
+

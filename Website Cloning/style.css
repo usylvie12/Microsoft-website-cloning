@@ -8,6 +8,7 @@ html,body{
 nav{
     font-size: small;
     color: white;
+    background-color: white;
 }
 .navbar img{
     width: 60% ;
@@ -16,10 +17,13 @@ nav{
 
 
 
-
+.icon-list{
+  height: 150px;
+}
 
 .icon-section i{
     padding-left: 20px;
+    
 }
 
 .info{
@@ -43,11 +47,25 @@ nav{
    
   }
   
+  
   /* Bottom right text */
   .text-block {
     position: absolute;
     top: 20%;
     padding-left: 60%;
+    
+  }
+
+  .text-block  a{
+    text-decoration: none;
+   
+    
+  }
+  .text-block  button{
+    background-color:#4169E1;
+    color: white;
+    border: none;
+    padding: 10px;
     
   }
 
@@ -107,14 +125,42 @@ nav{
   }
   
 
-    .icon-list{
-        height: 70px;
-        padding-top: 20px;
+    .font-awesome-icon{
+        
+        padding-left: 100px;
+        
     }
+    .font-awesome-icon-link{
+        
+      padding-left: 20px;
+      padding-top: 10px;
+      
+  }
     .card{
         padding: 10px;
         
         
+    }
+    .font-awersome-list{
+      height: 100px;
+      padding: 30px;
+      
+    }
+    .font-awersome-list i{
+      
+      padding-left: 30px;
+      
+    }
+    .top-arrow{
+      
+      height: 70px;
+    }
+    .top-arrow a{
+      color: black;
+        background-color:  #c0c0c0;
+        padding: 10px;
+        text-decoration: none;
+        margin-left: 90%;
     }
     
     
@@ -153,6 +199,15 @@ footer a{
     position: relative;
      
   }
+  .top-arrow a{
+    color: black;
+      background-color:  #c0c0c0;
+      padding: 10px;
+      text-decoration: none;
+      margin: auto;
+      
+  }
+  
     
    
   }
@@ -174,6 +229,16 @@ footer a{
       position: relative;
        
     }
+    .top-arrow a{
+      color: black;
+        background-color:  #c0c0c0;
+        padding: 10px;
+        text-decoration: none;
+        margin: auto;
+        
+    }
+
+    
  }
 
 /* Large devices (desktops, 992px and up)  */
@@ -199,4 +264,11 @@ footer a{
    
 }
 }
+
+
+
+
+
+
+
 
